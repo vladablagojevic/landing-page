@@ -247,6 +247,9 @@ h2 {
 
     .header img {
         margin-bottom: 30px;
+        flex: 1 1 auto;
+        width: 350px;
+        margin-right: 40px;
     }
 
     .pictures .container .information h2 {
