@@ -33,7 +33,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    color: #fff;
+    color: #f9faf8;
     height: 60px;
 }
 
@@ -48,7 +48,7 @@ h2 {
 
 .navbar a {
     text-decoration: none;
-    color: #fff;
+    color: #e5e7eb;
     font-size: 18px;
     font-weight: bold;
 }
@@ -58,7 +58,7 @@ h2 {
 }
 
 .logo {
-    font-size: x-large;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -69,24 +69,25 @@ h2 {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    color: #fff;
+    color: #f9faf8;
     min-height: 500px;
 }
 
 .header h1 {
-    font-size: 3rem;
-    font-weight: bold;
+    font-size: 48px;
+    font-weight: 900;
     line-height: 1.2;
+    color: #f9faf8;
 }
 
 .header button {
     height: 40px;
     width: 120px;
     margin-top: 15px;
-    background-color: rgb(0, 90, 139);
+    background-color: #3882f6;
     border-radius: 12px;
     border: none;
-    color: #fff;
+    color: #f9faf8;
     font-size: 18px;
     font-weight: bold;
     padding: 10px;
@@ -99,5 +100,35 @@ h2 {
 .header img {
     max-width: 500px;
     margin-left: 40px;
+}
+
+/* section pictures */
+
+
+
+.pictures .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e5e7eb;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 40px 0;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images .image {
+    flex: 1;
+    justify-content: space-around;
+    margin: 20px;
 }
 
