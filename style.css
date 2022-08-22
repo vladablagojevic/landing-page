@@ -257,6 +257,11 @@ h2 {
         flex-direction: column;
     }
 
+    .pictures .container .image img {
+        flex: 1 1 auto;
+        min-width: 300px;
+    }
+
     .box {
         flex-wrap: wrap;
         min-width: 400px;
