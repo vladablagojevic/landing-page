@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -124,6 +126,7 @@ h2 {
     justify-content: space-between;
     margin-bottom: 50px;
     color: #1f2937;
+    font-family: Roboto, sans-serif;
     text-align: center;
 }
 
@@ -210,4 +213,70 @@ h2 {
 
 .action-button button:hover {
     color: lightblue;
+}
+
+/* footer */
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: larger;
+    height: 100px;
+}
+
+@media (max-width: 768px) {
+    .navbar .container {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .header .container {
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .header button {
+        margin-bottom: 20px;
+    }
+
+    .header img {
+        margin-bottom: 30px;
+    }
+
+    .pictures .container .information h2 {
+        text-align: center;
+    }
+
+    .pictures .container .images {
+        flex-direction: column;
+    }
+
+    .box {
+        flex-wrap: wrap;
+        min-width: 400px;
+        min-height: 400px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box .action-text {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .box .action-button {
+        margin: 0 auto;
+        margin-left: 80px;    
+    }
+
+    .footer .container {
+        text-align: center;
+    }
 }
